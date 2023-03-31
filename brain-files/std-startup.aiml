@@ -1,9 +1,4 @@
 <aiml version="1.0">
-
-<category>
-  <pattern>Hello</pattern>
-  <template>Hi there!</template>
-</category>
     <category>
         <pattern>LOAD AIML B</pattern>
         <template>

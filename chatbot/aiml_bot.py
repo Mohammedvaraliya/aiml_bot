@@ -1,8 +1,9 @@
 import os
 import aiml
+import logging
 
 
-BRAIN_FILE = r"chatbot\brain.dump"
+BRAIN_FILE = r"brain-files\brain.dump"
 AIML_DIR = "aiml"
 
 class AIMLBot:
@@ -14,7 +15,7 @@ class AIMLBot:
             self.kernel.loadBrain(BRAIN_FILE)
         else:
             print("Parsing AIML files")
-            self.kernel.bootstrap(learnFiles=os.path.join(AIML_DIR, r"chatbot\std-startup.aiml"), commands="load aiml b")
+            self.kernel.bootstrap(learnFiles=r"brain-files\std-startup.aiml", commands="load aiml b")
             print("Saving brain file: " + BRAIN_FILE)
             self.kernel.saveBrain(BRAIN_FILE)
 
