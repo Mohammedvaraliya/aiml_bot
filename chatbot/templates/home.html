@@ -3,13 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <title>AIML Bot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        #chatbot-form {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        #chatbot-form input[type="text"] {
+            font-size: 16px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 60%;
+        }
+
+        #chatbot-form button[type="submit"] {
+            font-size: 16px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+            margin-left: 10px;
+        }
+
+        #chatbot-response {
+            margin-top: 30px;
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>AIML Bot</h1>
+    <h1 style="text-align: center;">AIML Bot</h1>
     <form id="chatbot-form" method="post" action="{% url 'home' %}">
         {% csrf_token %}
-        <input type="text" name="input_text">
-        <button type="submit" class="btn btn-primary" data-url="{% url 'home' %}">Ask</button>
+        <input type="text" name="input_text" placeholder="Ask me anything...">
+        <button type="submit">Ask</button>
     </form>
     <div id="chatbot-response"></div>
 
@@ -33,7 +71,7 @@
               data: formData,
               success: function(response) {
                 // Update the response element with the server's response
-                $('#chatbot-response').text('Bot: ' + response);
+                $('#chatbot-response').html('<p><strong>Bot:</strong> ' + response + '</p>');
               }
             });
           });
