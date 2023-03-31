@@ -2,7 +2,7 @@ import os
 import aiml
 
 
-BRAIN_FILE = r"chatbot\brain.dump"
+BRAIN_FILE = "brain.dump"
 AIML_DIR = "aiml"
 
 class AIMLBot:
