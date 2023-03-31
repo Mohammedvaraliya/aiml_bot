@@ -1,13 +1,16 @@
 {
-    "builds": [{
+    "version": 2,
+    "builds": [
+      {
         "src": "aiml_bot/wsgi.py",
-        "use": "@ardnt/vercel-python-wsgi",
-        "config": { "maxLambdaSize": "15mb" }
-    }],
+        "use": "@vercel/python",
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.9" }
+      }
+    ],
     "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "aiml_bot/wsgi.py"
-        }
+      {
+        "src": "/(.*)",
+        "dest": "aiml_bot/wsgi.py"
+      }
     ]
-}
+  }
