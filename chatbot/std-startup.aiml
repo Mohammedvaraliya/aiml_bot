@@ -1,0 +1,24 @@
+<aiml version="1.0">
+
+<category>
+  <pattern>Hello</pattern>
+  <template>Hi there!</template>
+</category>
+    <category>
+        <pattern>LOAD AIML B</pattern>
+        <template>
+            <!-- Load standard AIML set -->
+
+           <learn>aiml-files/greeting.aiml</learn>
+           <learn>aiml-files/date.aiml</learn>
+           <learn>aiml-files/location.aiml</learn>
+           <learn>aiml-files/courses.aiml</learn>
+           <learn>aiml-files/staff.aiml</learn>
+           <learn>aiml-files/csdepartment.aiml</learn>
+           <learn>aiml-files/itdepartment.aiml</learn>
+           <learn>aiml-files/biotechdepartment.aiml</learn>
+           <learn>aiml-files/bammcdepartment.aiml</learn>
+
+        </template>
+    </category>
+</aiml>

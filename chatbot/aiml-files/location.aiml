@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<category>
+	<pattern>WHERE IS COLLEGE LOCATED</pattern>
+	<template>Old Nagardas Road Andheri East Mumbai 400-069</template>
+</category>
+<category>
+	<pattern>HOW FAR COLLEGE IS FROM ANDHERI RAILWAY STATION</pattern>
+	<template>2 minutes Walk from Andheri Station.</template>
+</category>
+<category>
+	<pattern>WHICH IS THE NEAREST RAILWAY STATION</pattern>
+	<template>Andheri Railway Station</template>
+</category>
+<category>
+	<pattern>HOW FAR COLLEGE IS FROM ANDHERI METRO STATION</pattern>
+	<template>2 Minutes Walk From Andheri Metro.</template>
+</category>
+<category>
+	<pattern>WHICH IS THE NEAREST METRO STATION</pattern>
+	<template>Andheri Metro Station</template>
+</category>
+<category>
+	<pattern>HOW FAR COLLEGE IS FROM BUST STOP</pattern>
+	<template>2 Minute Walk From Agarkar Chowk</template>
+</category>
+<category>
+	<pattern>WHICH IS THE NEAREST BUS STOP</pattern>
+	<template>Agarkar Chowk</template>
+</category>
+<category>
+	<pattern>WHERE IS THE COLLEGE CANTEEN LOCATED</pattern>
+	<template>B-wing Next to library</template>
+</category>
+<category>
+	<pattern>WHERE IS THE COLLEGE LIBRARY LOCATED</pattern>
+	<template>C-wing Next to  sports Room</template>
+</category>
+<category>
+	<pattern>WHERE IS THE MAIN OFFICE OF THE COLLEGE</pattern>
+	<template>A-wing Near Chinai College Gate</template>
+</category>
+<category>
+	<pattern>WHERE IS THE SPORTS ROOM OF THE COLLEGE</pattern>
+	<template>C-Wing Next to Library</template>
+</category>
+<category>
+	<pattern>WHERE IS THE STAFF ROOM OF COMPUTER SCIENCE DEPARTMENT</pattern>
+	<template>The CS staff room is located in front of the CS lab.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE STAFF ROOM OF INFORMATION TECHNOLOGY DEPARTMENT</pattern>
+	<template>The IT staff room is located in front of the CS lab.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE STAFF ROOM OF BIOTECHNOLOGY DEPARTMENT</pattern>
+	<template>The Biotechnology staffroom is located at the second floor.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE STAFF ROOM OF BAMMC DEPARTMENT</pattern>
+	<template>The BAMMC staff room is located at the first floor.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE PRINCIPAL OFFICE LOCATED</pattern>
+	<template>"The principal office is located at the A wing</template>
+</category>
+<category>
+	<pattern>WHERE IS THE DIRECTOR OFFICE LOCATED</pattern>
+	<template>"The director office is located at the A wing</template>
+</category>
+<category>
+	<pattern>WHERE IS THE ENQUIRY COUNTER OF THE COLLEGE</pattern>
+	<template>The enquiry counter of the college is located at the Chinnai building.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE FEES COUNTER OF THE COLLEGE</pattern>
+	<template>The fees counter is located at the Chinnai building.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE COLLEGE GYM LOCATED</pattern>
+	<template>The college gym is located at the C wing.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE COLLEGE GROUND LOCATED</pattern>
+	<template>The college ground is located at the center of the college campus</template>
+</category>
+<category>
+	<pattern>WHERE IS THE IT LAB OF THE COLLEGE</pattern>
+	<template>The IT lab is located in the D wing.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE CS LAB OF THE COLLEGE</pattern>
+	<template>The CS lab is located in the D wing.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE BIOTECH LAB OF THE COLLEGE</pattern>
+	<template>The biotech lab is located at the second floor.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE AUDITORIUM OF THE COLLEGE</pattern>
+	<template>The auditorium is located at D wing.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE CLASS ROOM OF CS DEPERTMENT</pattern>
+	<template>The classroom for the IT department is located at second floor.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE CLASS ROOM OF IT DAPARTMENT</pattern>
+	<template>The classroom for the IT department is located at second floor.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE CLASS ROOM OF BIOTECH DAPARTMENT</pattern>
+	<template>"The AC classroom is located in D wing</template>
+</category>
+<category>
+	<pattern>WHERE IS THE CLASS ROOM OF THE BAMMC DEPARTMENT</pattern>
+	<template>"The AC classroom is located in D wing</template>
+</category>
+<category>
+	<pattern>WHERE IS THE AC CLASSROOM OF CS DEPARTMENT</pattern>
+	<template>"The AC classroom is located in D wing</template>
+</category>
+<category>
+	<pattern>WHERE IS THE AC CLASSROOM OF THE IT DEPARTMENT</pattern>
+	<template>"The AC classroom is located in D wing</template>
+</category>
+<category>
+	<pattern>WHERE IS BOYS WASHROOM IN THE COLLEGE</pattern>
+	<template>The boys washroom is near the girls washroom.</template>
+</category>
+<category>
+	<pattern>WHERE IS GIRLS WASHROOM IN THE COLLEGE</pattern>
+	<template>The girls washroom is near the boys washroom.</template>
+</category>
+<category>
+	<pattern>WHERE IS WASHROOM IN THE COLLEGE</pattern>
+	<template>The washroom is located is near C wing.</template>
+</category>
+<category>
+	<pattern>WHERE IS CARROM ROOM IN COLLEGE</pattern>
+	<template>The carrom room is located near the MVLU college library.</template>
+</category>
+<category>
+	<pattern>WHERE IS TENNIS COURT IN COLLEGE</pattern>
+	<template>The tennis court is located behind the college campus.</template>
+</category>
+<category>
+	<pattern>WHERE IS FOOTBALL GROUND IN COLLEGE</pattern>
+	<template>The ground is located at the center of the college campus.</template>
+</category>
+<category>
+	<pattern>WHERE IS CRICKET GROUND IN COLLEGE</pattern>
+	<template>The ground is located at the center of the college campus.</template>
+</category>
+<category>
+	<pattern>WHERE IS FLAGPOST IN COLLEGE</pattern>
+	<template>The flagpost can be located at the ground.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE PARKING AVAILABLE FOR COLLEGE STUDENT</pattern>
+	<template>The parking is available right infront of the chinnai college gate.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE PARKING AVAILABLE FOR COLLEGE STAFF</pattern>
+	<template>Staff can park their vehicles inside the college.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE WATCHMAN CABIN OF THE COLLEGE</pattern>
+	<template>Right in the front of the college main gate.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE STAIRCASE IN THE COLLEGE</pattern>
+	<template>"The college has two staircases</template>
+</category>
+<category>
+	<pattern>WHERE IS THE CULTURAL ROOM OF THE COLLEGE</pattern>
+	<template>The cultural room is located in front of the auditorium.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE PLACE TO SIT IN COLLEGE CAMPUS</pattern>
+	<template>"The college has huge library where student can sit and study</template>
+</category>
+<category>
+	<pattern>WHERE IS THE CCSP CLASSROOM IN THE COLLEGE </pattern>
+	<template>Besides the CCSP office.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE CCSP LAB IN THE COLLEGE</pattern>
+	<template>Besides the CCSP office.</template>
+</category>
+<category>
+	<pattern>WHERE IS THE CCSP OFFICE IN THE COLLEGE</pattern>
+	<template>The CCSP office can be found at the main gate of the college.</template>
+</category>
+</aiml>

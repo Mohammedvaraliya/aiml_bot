@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>HOW MANY COURSES DOES COLLEGE OFFERS</pattern>
+	<template>"The college offers four course viz. Computer Science, Information Technology, BAMMC, Biotechnology</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE AVAILABLE COURSES OF THE COLLEGE</pattern>
+	<template>"The college offers four course viz. Computer Science, Information Technology, BAMMC, Biotechnology</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE ADDITIONAL COURSES OFFERED BY THE COLLEGE</pattern>
+	<template>The college additional like CCSP and Digital Marketing.</template>
+</category>
+<category>
+	<pattern>WHAT IS THE FEE STRUCTURE OF ATKT EXAMINATION</pattern>
+	<template>The structure can be seen at mvlucollege.in</template>
+</category>
+
+<!--Department Similarities-->
+<!--COORDINATOR-->
+<category>
+	<pattern>COORDINATOR OF * DEPARTMENT</pattern>
+	<template><srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern>COORDINATOR OF THE * DEPARTMENT</pattern>
+	<template><srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern> * DEPARTMENT COORDINATOR</pattern>
+	<template><srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern> * COORDINATOR</pattern>
+	<template><srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern>COORDINATOR OF *</pattern>
+	<template><srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern>COORDINATOR OF THE *</pattern>
+	<template><srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai></template>
+</category>
+
+<!---HOD-->
+<category>
+	<pattern>HOD OF * DEPARTMENT</pattern>
+	<template><srai>WHO IS THE HOD OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern>HOD OF THE * DEPARTMENT</pattern>
+	<template><srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern> * DEPARTMENT HOD</pattern>
+	<template><srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern> * HOD</pattern>
+	<template><srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern>HOD OF *</pattern>
+	<template><srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern>HOD OF THE *</pattern>
+	<template><srai>WHO IS THE COORDINATOR OF <star/> DEPARTMENT</srai></template>
+</category>
+
+<!---COURSE DURATION-->
+<category>
+	<pattern>COURSE DURATION OF * DEPARTMENT</pattern>
+	<template><srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern>COURSE DURATION OF THE * DEPARTMENT</pattern>
+	<template><srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern>DURATION OF COURSE IN * DEPARTMENT</pattern>
+	<template><srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern>DURATION OF THE COURSE IN * DEPARTMENT</pattern>
+	<template><srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern>COURSE DURATION IN * DEPARTMENT</pattern>
+	<template><srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern>COURSE DURATION IN THE * DEPARTMENT</pattern>
+	<template><srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai></template>
+</category>
+<category>
+	<pattern> * DEPARTMENT COURSE DURATION</pattern>
+	<template><srai>WHAT IS THE COURSE DURATION OF <star/> DEPARTMENT</srai></template>
+</category>
+
+</aiml>

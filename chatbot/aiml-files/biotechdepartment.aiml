@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category>
+	<pattern>WHO IS THE COORDINATOR OF BIOTECH DEPARTMENT</pattern>
+	<template>Smt. Shweta Khopde</template>
+</category>
+<category>
+	<pattern>WHO IS THE HOD OF BIOTECH DEPARTMENT</pattern>
+	<template>Smt. Shweta Khopde</template>
+</category>
+
+<category>
+	<pattern>WHAT IS THE COURSE DURATION OF BIOTECH DEPARTMENT</pattern>
+	<template>The duration of the course is 3 years.</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE SUBJECTS OF BIOTECH FOR SEM-1 </pattern>
+	<template>You can refer the subjects a mvlucollege.in</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE SUBJECTS OF BIOTECH FOR SEM-2</pattern>
+	<template>You can refer the subjects a mvlucollege.in</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE SUBJECTS OF BIOTECH FOR SEM-3</pattern>
+	<template>You can refer the subjects a mvlucollege.in</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE SUBJECTS OF BIOTECH FOR SEM-4</pattern>
+	<template>You can refer the subjects a mvlucollege.in</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE SUBJECTS OF BIOTECH FOR SEM-5</pattern>
+	<template>You can refer the subjects a mvlucollege.in</template>
+</category>
+<category>
+	<pattern>WHAT ARE THE SUBJECTS OF BIOTECH FOR SEM-6</pattern>
+	<template>You can refer the subjects a mvlucollege.in</template>
+</category>
+</aiml>

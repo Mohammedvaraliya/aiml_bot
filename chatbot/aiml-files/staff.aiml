@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+<category>
+    <pattern>WHO IS THE FOUNDER OF COLLEGE</pattern>
+    <template>Sir Mathurdas Visanji</template>
+</category>
+<category>
+	<pattern>WHO IS THE TRUSTEE OF COLLEGE</pattern>
+	<template>Smt. Arati Vissanji</template>
+</category>
+<category>
+	<pattern>WHO IS THE DIRECTOR OF COLLEGE</pattern>
+	<template>Smt. Jyoti Gaitonde</template>
+</category>
+<category>
+	<pattern>WHO IS THE PRINCIPAL OF COLLEGE</pattern>
+	<template>Dr. Mahendra Kanojia</template>
+</category>
+<category>
+	<pattern>WHO IS THE ADMIN OF COLLEGE</pattern>
+	<template>Mr. Shashikant Gawde</template>
+</category>
+<category>
+	<pattern>WHO IS THE ACCOUNTANT OF COLLEGE</pattern>
+	<template>Mr. Shashikant Gawde</template>
+</category>
+<category>
+	<pattern>WHO IS THE LIBRARIAN OF COLLEGE</pattern>
+	<template>Ms. Pankti Dedia</template>
+</category>
+
+<!--srai Tag-->
+<category>
+    <pattern> * OF THE COLLEGE </pattern>
+    <template><srai>WHO IS THE <star/> OF COLLEGE</srai></template>  
+</category>
+<category>
+    <pattern> * OF COLLEGE </pattern>
+    <template><srai>WHO IS THE <star/> OF COLLEGE</srai></template>  
+</category>
+<category>
+    <pattern>TELL ME WHO IS * </pattern>
+    <template><srai>WHO IS THE <star/> OF COLLEGE</srai></template>  
+</category>
+<category>
+    <pattern>TELL ME WHO IS * </pattern>
+    <template><srai>WHO IS THE <star/> OF COLLEGE</srai></template>  
+</category>
+<category>
+    <pattern>COLLEGE * </pattern>
+    <template><srai>WHO IS THE <star/> OF COLLEGE</srai></template>  
+</category>
+<category>
+    <pattern>WHO IS * </pattern>
+    <template><srai>WHO IS THE <star/> OF COLLEGE</srai></template>  
+</category>
+</aiml>

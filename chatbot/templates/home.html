@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AIML Bot</title>
+</head>
+<body>
+    <h1>AIML Bot</h1>
+    <form id="chatbot-form" method="post" action="{% url 'home' %}">
+        {% csrf_token %}
+        <input type="text" name="input_text">
+        <button type="submit" class="btn btn-primary" data-url="{% url 'home' %}">Ask</button>
+    </form>
+    <div id="chatbot-response"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function() {
+          // Intercept the form submission event
+          $('#chatbot-form').submit(function(event) {
+            event.preventDefault(); // Prevent the default form submission behavior
+
+            // Get the form data
+            var formData = $(this).serialize();
+
+            // Get the URL to submit the form data to
+            var url = $(event.target.activeElement).data('url');
+
+            // Send an AJAX request to the server
+            $.ajax({
+              type: 'POST',
+              url: url,
+              data: formData,
+              success: function(response) {
+                // Update the response element with the server's response
+                $('#chatbot-response').text('Bot: ' + response);
+              }
+            });
+          });
+        });
+    </script>
+</body>
+</html>
