@@ -1,7 +1,9 @@
 from django.urls import path
+from .views import AIMLBotView
 from . import views
 
 
 urlpatterns = [
-    path('', views.aiml_bot_response, name='home'),
+    path('', views.home, name='home'),
+    path('bot/', AIMLBotView.as_view(), name='bot'),
 ]

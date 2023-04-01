@@ -184,7 +184,7 @@
 </category> 
 <category> 
         <pattern>HOW IS THE WEATHER </pattern> 
-        <template>You should check the new.</template> 
+        <template>You should check the news.</template> 
 </category> 
 <category> 
         <pattern>IT IS COLD OUTSIDE </pattern> 
@@ -228,7 +228,7 @@
 </category> 
 <category>
         <pattern>*</pattern><template>
-        Let me learn this. 
+        I'm sorry, I didn't understand your question. Could you please try rephrasing it?
 </template>
 </category>
 </aiml>

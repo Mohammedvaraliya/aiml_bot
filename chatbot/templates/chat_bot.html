@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>MVLU ChatBot</h1>
+<div id="chatbot-container">
+    <div id="chatbot-dialogue"></div>
+    <form id="chatbot-form" method="post" action="{% url 'bot' %}">
+        {% csrf_token %}
+        <input type="text" name="input_text" placeholder="Type your message...">
+        <button type="submit">Ask</button>
+    </form>
+</div>
+
+{% endblock content %}
+
+{% block js %}
+<script>
+    const form = document.getElementById('chatbot-form');
+    const dialogueContainer = document.getElementById('chatbot-dialogue');
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const formData = new FormData(form);
+        const url = form.getAttribute('action');
+        const inputText = formData.get('input_text').trim();
+        if (!inputText) {
+            const errorMessage = '<p class="error-message">Please enter a message.</p>';
+            dialogueContainer.innerHTML += errorMessage;
+            return;
+        }
+        fetch(url, {
+            method: 'POST',
+            body: formData,
+        })
+        .then(response => response.text())
+        .then(data => {
+            const userMessage = '<p class="user-message">' + formData.get('input_text') + '</p>';
+            const botMessage = '<p class="bot-message"><strong>Bot:</strong> ' + data + '</p>';
+            dialogueContainer.innerHTML = dialogueContainer.innerHTML + userMessage + botMessage;
+            form.reset();
+            dialogueContainer.scrollTop = dialogueContainer.scrollHeight;
+        })
+        .catch(error => console.error(error));
+    });
+</script>
+
+{% endblock js %}
+
