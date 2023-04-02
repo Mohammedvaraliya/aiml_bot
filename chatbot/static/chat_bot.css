@@ -41,17 +41,21 @@ body {
 .header-content img {
     height: 60px;
     margin-right: 138px;
-    justify-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .header-content h1 {
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
     margin: 0;
     color: #000000;
     flex: 1;
     text-align: right;
-    justify-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 #chatbot-container {
@@ -156,9 +160,9 @@ h1 {
 }
 
 #bot-link {
-    background-color: #1abc9c;
+    background-color: #ffe018;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -171,7 +175,8 @@ h1 {
 }
 
 #bot-link:hover {
-    background-color: #148f77;
+    background-color: #617b00;
+    color: white;
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
