@@ -104,13 +104,14 @@ body {
 }
 
 #chatbot-form input[type="text"] {
-    width: 80%;
+    width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
     background-color: #eee;
     font-size: 16px;
     color: #333;
+    margin-right: 10px;
 }
 
 #chatbot-form button[type="submit"] {

@@ -12,6 +12,32 @@
         </template>
 </category>
 <category>
+        <pattern>GREAT</pattern>
+        <template>
+            <random>
+            <li>I'm glad to hear that </li>
+            <li>Awesome, how can I assist you today? </li>
+            </random>
+        </template>
+</category>
+<category>
+        <pattern>GOOD</pattern>
+        <template>I'm glad to hear that </template>
+</category>
+<category>
+        <pattern>NICE</pattern>
+        <template>I'm glad to hear that</template>
+</category>
+<category>
+        <pattern>WELL *</pattern>
+        <template>
+        <random>
+            <li>I'm glad to hear that </li>
+            <li>That's good to hear </li>
+        </random>
+        </template>
+</category>
+<category>
         <pattern>_ HELLO</pattern>
         <template>
             <srai>HELLO</srai>
