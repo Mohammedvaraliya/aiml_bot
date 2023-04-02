@@ -15,27 +15,7 @@
 	<template>The duration of the course is 3 years.</template>
 </category>
 <category>
-	<pattern>WHAT ARE THE SUBJECTS OF CS FOR SEM-1 </pattern>
-	<template>You can refer the subjects a mvlucollege.in</template>
-</category>
-<category>
-	<pattern>WHAT ARE THE SUBJECTS OF CS FOR SEM-2</pattern>
-	<template>You can refer the subjects a mvlucollege.in</template>
-</category>
-<category>
-	<pattern>WHAT ARE THE SUBJECTS OF CS FOR SEM-3</pattern>
-	<template>You can refer the subjects a mvlucollege.in</template>
-</category>
-<category>
-	<pattern>WHAT ARE THE SUBJECTS OF CS FOR SEM-4</pattern>
-	<template>You can refer the subjects a mvlucollege.in</template>
-</category>
-<category>
-	<pattern>WHAT ARE THE SUBJECTS OF CS FOR SEM-5</pattern>
-	<template>You can refer the subjects a mvlucollege.in</template>
-</category>
-<category>
-	<pattern>WHAT ARE THE SUBJECTS OF CS FOR SEM-6</pattern>
+	<pattern>WHAT ARE THE SUBJECTS OF CS FOR SEM *</pattern>
 	<template>You can refer the subjects a mvlucollege.in</template>
 </category>
 </aiml>

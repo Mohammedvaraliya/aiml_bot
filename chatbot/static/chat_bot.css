@@ -4,10 +4,13 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
-    background-image: url("../static/images/background.jpg");
+    background-image: url("../static/images/background.jpeg");
     background-size: cover;
-    height: auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
+
 
 .material-symbols-outlined {
   font-variation-settings:
