@@ -4,6 +4,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import HttpResponse
 from .aiml_bot import AIMLBot
 from datetime import datetime
+from .models import Question
 
 
 aiml_bot = AIMLBot()
@@ -33,3 +34,12 @@ class AIMLBotView(View):
         input_text = request.POST.get('input_text', '')
         response = aiml_bot.respond(input_text)
         return HttpResponse(response)
+    
+class QuestionView(View):
+    template_name = 'questions.html'
+    context_object_name = 'questions'
+
+    def get(self, request, *args, **kwargs):
+        questions = Question.objects.all()
+        context = {self.context_object_name: questions}
+        return render(request, self.template_name, context)

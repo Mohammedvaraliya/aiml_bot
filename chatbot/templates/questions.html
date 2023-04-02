@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div id="header">
+        <h1>Questions</h1>
+    </div>
+
+    <div class="container">
+
+        <div id='description'>
+            <ul>
+                {% for question in questions %}
+                  <li>{{ question.text }}</li>
+                {% endfor %}
+              </ul>
+    </div>
+
+        <div class="link-container">
+            <a href="{% url 'bot' %}" id="bot-link">Use Bot</a>
+        </div>
+    </div>
+{% endblock content %}
