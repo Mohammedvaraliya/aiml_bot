@@ -29,6 +29,26 @@
 	<pattern>WHO IS THE LIBRARIAN OF COLLEGE</pattern>
 	<template>Ms. Pankti Dedia</template>
 </category>
+<category>
+	<pattern>WHO IS THE COORDINATE OF CS DEPARTMENT</pattern>
+	<template>Dr. Mahendra Kanojia</template>
+</category>
+<category>
+	<pattern>WHO IS THE COORDINATE OF IT DEPARTMENT</pattern>
+	<template>Smt. Sneha Gokarkar</template>
+</category>
+<category>
+	<pattern>WHO IS THE COORDINATE OF BIOTECH DEPARTMENT</pattern>
+	<template>Smt. Shweta Khopde</template>
+</category>
+<category>
+	<pattern>WHO IS THE COORDINATE OF BAMMC DEPARTMENT</pattern>
+	<template>Smt. Manisha Sayani</template>
+</category>
+<category>
+	<pattern>NAME THE FACULTY MEMBERS OF CS DEPARTMENT</pattern>
+	<template>Dr. Mahendra Kanojia, Mrs. Pradnya Kharade, Ms. Jyoti Chauhan</template>
+</category>
 
 <!--srai Tag-->
 <category>

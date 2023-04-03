@@ -8,9 +8,17 @@
     <div class="container">
 
         <div id='description'>
+            <h1>You may ask this type of questions related to locations</h1>
             <ul>
-                {% for question in questions %}
-                  <li>{{ question.text }}</li>
+                {% for location in locations %}
+                  <li>{{ location.text }}</li>
+                {% endfor %}
+              </ul>
+              <br>
+            <h1>You may ask this type of questions related to Staffs</h1>
+            <ul>
+                {% for staff in staffs %}
+                  <li>{{ staff.text }}</li>
                 {% endfor %}
               </ul>
     </div>

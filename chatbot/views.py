@@ -40,6 +40,10 @@ class QuestionView(View):
     context_object_name = 'questions'
 
     def get(self, request, *args, **kwargs):
-        questions = Question.objects.all()
-        context = {self.context_object_name: questions}
+        locations = Question.objects.filter(category__name='locations')
+        staff = Question.objects.filter(category__name='staffs')
+        context = {
+            'locations': locations,
+            'staffs': staff,
+        }
         return render(request, self.template_name, context)
