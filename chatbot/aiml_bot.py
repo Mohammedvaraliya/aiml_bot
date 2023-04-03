@@ -1,6 +1,5 @@
 import os
 import aiml
-import logging
 
 
 BRAIN_FILE = r"brain-files\brain.dump"
