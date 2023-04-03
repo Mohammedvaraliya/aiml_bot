@@ -42,8 +42,16 @@ class QuestionView(View):
     def get(self, request, *args, **kwargs):
         locations = Question.objects.filter(category__name='locations')
         staff = Question.objects.filter(category__name='staffs')
+        history = Question.objects.filter(category__name='histories')
+        course = Question.objects.filter(category__name='courses')
+        sport = Question.objects.filter(category__name='sports')
+        other = Question.objects.filter(category__name='others')
         context = {
             'locations': locations,
             'staffs': staff,
+            'histories': history,
+            'courses': course,
+            'sports': sport,
+            'others': other,
         }
         return render(request, self.template_name, context)

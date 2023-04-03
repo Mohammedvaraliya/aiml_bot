@@ -8,20 +8,58 @@
     <div class="container">
 
         <div id='description'>
-            <h1>You may ask this type of questions related to locations</h1>
+            <h1>You may ask this type of questions related to Locations</h1>
             <ul>
                 {% for location in locations %}
                   <li>{{ location.text }}</li>
                 {% endfor %}
               </ul>
-              <br>
+            </div>
+
+        <div id='description'>
             <h1>You may ask this type of questions related to Staffs</h1>
             <ul>
                 {% for staff in staffs %}
                   <li>{{ staff.text }}</li>
                 {% endfor %}
               </ul>
-    </div>
+        </div>
+
+        <div id='description'>
+            <h1>You may ask this type of questions related to Histories</h1>
+            <ul>
+                {% for history in histories %}
+                  <li>{{ history.text }}</li>
+                {% endfor %}
+              </ul>
+        </div>
+
+        <div id='description'>
+            <h1>You may ask this type of questions related to Courses</h1>
+            <ul>
+                {% for course in courses %}
+                  <li>{{ course.text }}</li>
+                {% endfor %}
+              </ul>
+        </div>
+
+        <div id='description'>
+            <h1>You may ask this type of questions related to Sports</h1>
+            <ul>
+                {% for sport in sports %}
+                  <li>{{ sport.text }}</li>
+                {% endfor %}
+              </ul>
+        </div>
+
+        <div id='description'>
+            <h1>You may ask this type of questions related to Others</h1>
+            <ul>
+                {% for other in others %}
+                  <li>{{ other.text }}</li>
+                {% endfor %}
+              </ul>
+        </div>
 
         <div class="link-container">
             <a href="{% url 'bot' %}" id="bot-link">Use Bot</a>
